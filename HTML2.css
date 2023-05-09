@@ -1,0 +1,16 @@
+body{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.header{
+    text-align: center;
+}
+.content{
+    padding: 10px 0;
+    border-top: 10px solid;
+    border-bottom: 10px solid;
+    border-top-color: red;
+    border-bottom-color: green;
+    text-align: justify;
+    color: blue;
+}
