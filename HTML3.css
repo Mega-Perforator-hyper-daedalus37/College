@@ -1,0 +1,35 @@
+body{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.lists{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.numbered-list{
+    margin: 0;
+}
+.marked{
+    justify-content: center;
+}
+.list-name{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: larger;
+}
+.list-item{
+    text-decoration: none;
+}
+.list-item:hover {
+    transition: 200ms;
+    border-bottom: 2px solid darkblue;
+    padding-bottom: 1px;
+    color: darkblue;
+}
